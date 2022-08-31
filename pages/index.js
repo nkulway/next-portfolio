@@ -9,13 +9,27 @@ import testImage from "../public/vercel.svg";
 import { useRef } from "react";
 
 export default function Home() {
-  const ref = useRef(null);
+  const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
+  const projectRef = useRef(null);
+  const contactRef = useRef(null);
 
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-    console.log("works");
+  const handleClickToAbout = () => {
+    aboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const handleClickToExperience = () => {
+    experienceRef.current?.scrollIntoView({ behavior: "smooth" })
+  }
+
+  const handleClickToProjects = () => {
+    projectRef.current?.scrollIntoView({ behavior: "smooth" })
+  }
+
+  const handleClickToContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" })
+  }
+  
   return (
     <>
       <Head>
@@ -23,7 +37,6 @@ export default function Home() {
         <meta name='description' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      {/* <Nav /> */}
       <nav className={styles.nav}>
         <div className={styles.lineContainer}>
           <div className={styles.navLinks}>
@@ -35,17 +48,22 @@ export default function Home() {
               />
             </div>
             <ul>
-              <li onClick={handleClick}>About</li>
-              <li>Experience</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <li onClick={handleClickToAbout}>About</li>
+              <li onClick={handleClickToExperience}>Experience</li>
+              <li onClick={handleClickToProjects}>Projects</li>
+              <li onClick={handleClickToContact}>Contact</li>
             </ul>
           </div>
           <div className={styles.greenLine}></div>
           <div className={styles.metalLine}></div>
         </div>
       </nav>
-      <Main ref={ref}/>
+      <Main ref={{
+        ref1: aboutRef,
+        ref2: experienceRef,
+        ref3: projectRef,
+        ref4: contactRef
+      }} />
     </>
   );
 }

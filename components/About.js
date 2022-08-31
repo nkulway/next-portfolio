@@ -7,9 +7,9 @@ import React, { forwardRef } from 'react'
 // })
 
 // eslint-disable-next-line react/display-name
-const About = forwardRef((_props, ref) => {
+const About = forwardRef((_props, aboutRef) => {
   return (
-    <div ref={ref} id="aboout-section">About Me</div>
+    <div ref={aboutRef} id="aboout-section">About Me</div>
   )
 })
 
