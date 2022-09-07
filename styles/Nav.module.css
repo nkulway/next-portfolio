@@ -62,12 +62,6 @@
   height: 100%;
 }
 
-.avatar img {
-  /* border: 5px solid #555; */
-  /* border-radius: 00px; */
-  /* z-index: 2; */
-}
-
 .imageWrapper {
   height: auto;
   border: 10px solid #DCFFFD;
