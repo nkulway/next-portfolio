@@ -11,11 +11,20 @@
 }
 
 .mainContent {
-  /* background-color: #EEFBFB; */
+  background-color: #EEFBFB;
+  /* height: 100%; */
 }
 
 @media screen and (max-width: 768px) {
   .main {
-    /* background-color: black; */
+    display: flex;
+    margin-left: auto;
+    height: 100%;
+    background-color: #EEFBFB;
+  }
+  .mainContent {
+    background-color: #EEFBFB;
+    height: 100%;
+    flex: 1;
   }
 }

@@ -5,7 +5,7 @@ import About from "../components/About";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import testImage from "../public/profilePicture.jpeg";
+import profileImage from "../public/profilePicture.jpeg";
 import { useRef } from "react";
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
       <Head>
         <title>Nick Kulway</title>
         <meta name='description' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicon.icon' />
       </Head>
       <div className={styles.navParent}>
         <div className={styles.navContainer}>
@@ -45,7 +45,7 @@ export default function Home() {
                 <div className={styles.imageWrapper}>
                   <Image
                     className={styles.avatar}
-                    src={testImage}
+                    src={profileImage}
                     alt='A picture of Nick Kulway'
                   />
                 </div>
@@ -62,14 +62,16 @@ export default function Home() {
           </nav>
         </div>
       </div>
-      <Main
-        ref={{
-          ref1: aboutRef,
-          ref2: experienceRef,
-          ref3: projectRef,
-          ref4: contactRef,
-        }}
-      />
+      <div id={styles.mainId}>
+        <Main
+          ref={{
+            ref1: aboutRef,
+            ref2: experienceRef,
+            ref3: projectRef,
+            ref4: contactRef,
+          }}
+        />
+      </div>
     </>
   );
 }

@@ -1,15 +1,10 @@
 .projectContainer {
-  /* border: 1px solid crimson; */
-  /* height: 600px; */
-  height: 100%;
+  height: 500px;
   padding: 20px;
-  /* width: 100%; */
 }
 
 .projectContent {
-  /* flex: 1; */
-  /* border: 1px solid chartreuse; */
-  /* height: 100%; */
+  height: 100%;
   width:fit-content;
   justify-content: center;
 }
