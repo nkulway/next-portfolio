@@ -11,11 +11,12 @@ const Main = forwardRef((_props, ref) => {
   const { ref1, ref2, ref3, ref4 } = ref;
   return (
     <main className={mainStyles.main}>
-      <h1>Nick Kulway</h1>
-      <About ref={ref1} id='about' />
-      <Experience ref={ref2} />
-      <Projects ref={ref3} />
-      <Contact ref={ref4} />
+      <div className={mainStyles.mainContent}>
+        <About ref={ref1} id='about' />
+        <Experience ref={ref2} />
+        <Projects ref={ref3} />
+        <Contact ref={ref4} />
+      </div>
     </main>
   );
 });
