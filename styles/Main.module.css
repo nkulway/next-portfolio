@@ -6,11 +6,16 @@
   /* background-color: #98FFFF; */
   background-color: #EEFBFB;
   color: #203647;
-  /* width: 100%; */
+  width: fit-content;
   height: 100%;
 }
 
 .mainContent {
-  background-color: #EEFBFB;
-  height: 10000px;
+  /* background-color: #EEFBFB; */
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    /* background-color: black; */
+  }
 }

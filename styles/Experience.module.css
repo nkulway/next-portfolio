@@ -1,12 +1,11 @@
-.projectContainer {
+.expContainer {
   /* border: 1px solid crimson; */
-  /* height: 600px; */
   height: 100%;
   padding: 20px;
   /* width: 100%; */
 }
 
-.projectContent {
+.expContent {
   /* flex: 1; */
   /* border: 1px solid chartreuse; */
   /* height: 100%; */
