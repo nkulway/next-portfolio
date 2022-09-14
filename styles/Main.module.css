@@ -1,9 +1,6 @@
 .main {
   margin-left: 200px;
   padding: 10px 40px 10px 10px;
-  /* background-color: #FFFFFF; */
-  /* background-color: #DCFFFD; */
-  /* background-color: #98FFFF; */
   background-color: #EEFBFB;
   color: #203647;
   width: fit-content;
@@ -12,7 +9,6 @@
 
 .mainContent {
   background-color: #EEFBFB;
-  /* height: 100%; */
 }
 
 @media screen and (max-width: 768px) {

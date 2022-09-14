@@ -1,12 +1,6 @@
 import React, { forwardRef } from "react";
 import aboutStyles from '../styles/About.module.css'
 
-// const About = forwardRef(() => {
-//   return (
-//     <div id="aboout-section">About Me</div>
-//   )
-// })
-
 // eslint-disable-next-line react/display-name
 const About = forwardRef((_props, aboutRef) => {
   return (

@@ -1,14 +1,11 @@
 .expContainer {
   display: flex;
-  /* border: 1px solid crimson; */
   height: 300px;
   padding: 20px;
-  /* width: 100%; */
 }
 
 .expContent {
   flex: 1;
-  /* border: 1px solid chartreuse; */
   height: 100%;
   width:fit-content;
   justify-content: center;
