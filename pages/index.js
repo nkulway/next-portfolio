@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Main from "../components/Main";
-import Nav from "../components/Nav";
 import About from "../components/About";
 import Link from "next/link";
 import Image from "next/image";

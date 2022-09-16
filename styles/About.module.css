@@ -11,3 +11,9 @@
   height: 100px;
   width: 100px;
 }
+
+@media screen and (max-width: 768px) {
+  .aboutContainer{
+    padding-top: 20%;
+  }
+  }
