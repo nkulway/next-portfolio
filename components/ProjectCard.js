@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import dummyImage from "../public/profilePicture.jpeg";
 import projectObj from "../public/projects.js";
 
-const ProjectCard = ({ projects }) => {
-  const [project, setProject] = useState({});
+const ProjectCard = () => {
 
   return (
     <section>
