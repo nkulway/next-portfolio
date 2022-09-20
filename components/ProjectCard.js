@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import dummyImage from "../public/profilePicture.jpeg";
 import projectObj from "../public/projects.js";
 

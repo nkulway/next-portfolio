@@ -2,7 +2,6 @@
 import mainStyles from "../styles/Main.module.css";
 import React, { forwardRef } from "react";
 import About from "./About";
-import Link from "next/link";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";

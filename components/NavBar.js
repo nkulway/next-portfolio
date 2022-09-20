@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React, { useRef, useState } from "react";
-import NavItem from "./NavItem";
 import navStyles from "../styles/Nav.module.css";
 import Main from "./Main";
 import Image from "next/image";
