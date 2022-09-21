@@ -1,16 +1,17 @@
 .projectContainer {
   height: 500px;
   padding: 20px;
+  display: flex;
 }
 
 .projectContent {
   height: 100%;
-  width:fit-content;
+  width: fit-content;
   justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-.projectContainer{
-  padding-top: 20%;
-}
+  .projectContainer {
+    padding-top: 20%;
+  }
 }

@@ -5,15 +5,19 @@ import projectObj from "../public/projects.js";
 const ProjectCard = () => {
 
   return (
-    <section>
-      {projectObj.map((projects) => (
-        <li key={projects.id}>{projects.title}</li>
-      ))}
+    <>
+    {projectObj.map((projects) => (
+      // <li key={projects.id}>{projects.title}</li>
+        <section key={projects.id}>
       <Image alt='Project Card' src={dummyImage} width={200} height={200} />
       <div>
-        <h2></h2>
+        <h2>{projects.title}</h2>
+        <p>{projects.heading}</p>
+        <p>{projects.description}</p>
       </div>
     </section>
+      ))}
+      </>
   );
 };
 

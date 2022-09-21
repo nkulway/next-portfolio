@@ -1,9 +1,10 @@
 .contactContainer {
   height: 100%;
   padding: 20px;
+  margin-top: 100%;
 }
 
 .contactContent {
-  width:fit-content;
+  width: fit-content;
   justify-content: center;
 }
