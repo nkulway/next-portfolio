@@ -30,18 +30,22 @@ const Navbar = () => {
   const contactRef = useRef(null);
 
   const handleClickToAbout = () => {
+    setNavActive("")
     aboutRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleClickToExperience = () => {
+    setNavActive("")
     experienceRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleClickToProjects = () => {
+    setNavActive("")
     projectRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleClickToContact = () => {
+    setNavActive("")
     contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
