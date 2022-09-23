@@ -21,3 +21,13 @@
   width: 100px;
   overflow: hidden;
 }
+
+#mobileMain {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #mobileMain {
+    display: contents;
+  }
+}

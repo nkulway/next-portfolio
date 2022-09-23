@@ -11,6 +11,11 @@
   background-color: #EEFBFB;
 }
 
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
   .main {
     display: flex;

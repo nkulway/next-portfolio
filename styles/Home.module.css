@@ -2,6 +2,7 @@
   margin-left: 200px;
   padding: 10px;
   color: #203647;
+  height: 100%;
 }
 
 .nav {
@@ -75,6 +76,10 @@
   width: 100px;
   overflow: hidden;
 }
+
+/* #mainId {
+    display: none;
+  } */
 
 @media screen and (max-width: 768px) {
   .navParent {

@@ -69,13 +69,13 @@ const Navbar = () => {
           </div>
           <div className={`${navActive ? "active" : ""} nav__menu-list`}>
             <div className={navStyles.navLinks}>
-            <div className={navStyles.imageWrapper}>
-                  <Image
-                    className={navStyles.avatar}
-                    src={profileImage}
-                    alt='A picture of Nick Kulway'
-                  />
-                </div>
+              <div className={navStyles.imageWrapper}>
+                <Image
+                  className={navStyles.avatar}
+                  src={profileImage}
+                  alt='A picture of Nick Kulway'
+                />
+              </div>
               <ul className={navStyles.linkContainer}>
                 <li onClick={handleClickToAbout}>About</li>
                 <li onClick={handleClickToExperience}>Experience</li>
@@ -86,14 +86,16 @@ const Navbar = () => {
           </div>
         </nav>
       </header>
-      <Main
-        ref={{
-          ref1: aboutRef,
-          ref2: experienceRef,
-          ref3: projectRef,
-          ref4: contactRef,
-        }}
-      />
+      <div id={navStyles.mobileMain}>
+        <Main
+          ref={{
+            ref1: aboutRef,
+            ref2: experienceRef,
+            ref3: projectRef,
+            ref4: contactRef,
+          }}
+        />
+      </div>
     </>
   );
 };
