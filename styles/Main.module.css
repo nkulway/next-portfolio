@@ -1,13 +1,13 @@
 .main {
-  margin-left: 200px;
   padding: 10px 40px 10px 10px;
   background-color: #EEFBFB;
   color: #203647;
-  width: fit-content;
+  width: 100%;
   height: 100%;
 }
 
 .mainContent {
+  margin-left: 200px;
   background-color: #EEFBFB;
 }
 
@@ -19,7 +19,6 @@
 @media screen and (max-width: 768px) {
   .main {
     display: flex;
-    margin-left: auto;
     height: 100%;
     background-color: #EEFBFB;
   }
@@ -27,5 +26,6 @@
     background-color: #EEFBFB;
     height: 100%;
     flex: 1;
+    margin-left: auto;
   }
 }
