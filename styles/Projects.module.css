@@ -12,6 +12,11 @@
   justify-content: center;
 }
 
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
   .projectContainer {
     padding-top: 20%;
