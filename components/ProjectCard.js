@@ -9,7 +9,7 @@ const ProjectCard = () => {
       {projectObj.map((projects) => (
         <section key={projects.id} className={projectStyles.cardContainer}>
           <Image alt='Project Card' src={dummyImage} width={200} height={200} />
-          <div>
+          <div className={projectStyles.cardContent}>
             <h2>{projects.title}</h2>
             <p>{projects.heading}</p>
             <p>{projects.description}</p>
