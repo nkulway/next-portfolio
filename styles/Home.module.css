@@ -77,10 +77,6 @@
   overflow: hidden;
 }
 
-/* #mainId {
-    display: none;
-  } */
-
 @media screen and (max-width: 768px) {
   .navParent {
     display: none;

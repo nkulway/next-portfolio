@@ -22,6 +22,10 @@
   margin-left: 20px;
 }
 
+.descriptionContainer {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
   .projectContainer {
     padding-top: 20%;
