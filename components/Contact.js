@@ -9,6 +9,11 @@ const Contact = forwardRef((_props, contactRef) => {
         <div className={contactStyles.contactContent}>
           <h1>Contact</h1>
           <p>Feel free to contact me here</p>
+          <ul className={contactStyles.contactList}>
+            <li>Email</li>
+            <li>Phone</li>
+            <li>Github</li>
+          </ul>
         </div>
       </div>
     </div>
